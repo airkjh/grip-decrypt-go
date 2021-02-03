@@ -4,7 +4,7 @@ import "fmt"
 
 /*
 	iota
- */
+*/
 
 func main() {
 	const (
@@ -21,7 +21,5 @@ func main() {
 		F
 	)
 
-	fmt.Println(D, E, F
-
-	)
+	fmt.Println(D, E, F)
 }
