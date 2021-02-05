@@ -2,10 +2,12 @@ package main
 
 import (
 	"fmt"
-	"section4/lib"
+	myLib "section4/lib"
 )
 
 func main() {
-	greetingMsg := lib.Greeting("airkjh")
+	greetingMsg := myLib.Greeting("airkjh")
 	fmt.Println(greetingMsg)
+
+	myLib.GetOut("Dumb ass")
 }
