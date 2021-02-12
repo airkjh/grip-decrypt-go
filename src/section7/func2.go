@@ -35,6 +35,8 @@ func main() {
 	}(10)
 }
 
+//GetFunctionName 는 Refection으로 인자로 넘어온 함수의 이름을 리턴
+//외부에서 접근 가능한 함수는 이렇게 주석이 있어야 하고 반드시 함수 이름으로 시작하는 주석이어야 한다
 func GetFunctionName(i interface{}) string {
 	return runtime.FuncForPC(reflect.ValueOf(i).Pointer()).Name()
 }

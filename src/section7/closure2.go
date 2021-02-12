@@ -15,7 +15,7 @@ func main() {
 func increaseCnt() func() int {
 	n := 0
 	return func() int {
-		n += 1
+		n++
 		return n
 	}
 }
