@@ -19,12 +19,12 @@ func main() {
 	fmt.Println(slice1[0:len(slice1)])
 
 	// 정렬
-	slice2 := []int{3,1,6,4,7,8,0}
+	slice2 := []int{3, 1, 6, 4, 7, 8, 0}
 	slice3 := []string{"B", "D", "F", "A", "C", "E"}
 
-	fmt.Println(sort.IntsAreSorted(slice2))			// 이 배열/슬라이스가 정렬되어 있나요?
+	fmt.Println(sort.IntsAreSorted(slice2)) // 이 배열/슬라이스가 정렬되어 있나요?
 
-	sort.Ints(slice2)		// 정렬해주세요
+	sort.Ints(slice2) // 정렬해주세요
 	fmt.Println(slice2)
 
 	fmt.Println()

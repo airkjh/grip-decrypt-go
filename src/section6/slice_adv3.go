@@ -34,7 +34,7 @@ func main() {
 	fmt.Println(d)
 
 	e := []int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
-	f := e[0:5:7]			// 0~4번 인덱스까지 가져오되 추출된 새 slice의 capacity는 7로 설정
+	f := e[0:5:7] // 0~4번 인덱스까지 가져오되 추출된 새 slice의 capacity는 7로 설정
 
 	fmt.Println("e", e)
 	fmt.Printf("f, len = %d, cap = %d, value = %v\n", len(f), cap(f), f)

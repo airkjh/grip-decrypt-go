@@ -13,11 +13,11 @@ func main() {
 	fmt.Println(str2)
 
 	str1 = "안녕하세요"
-	fmt.Println(len(str1))		// 한글 1글자는 3바이트
+	fmt.Println(len(str1)) // 한글 1글자는 3바이트
 
 	str2 = "안녕하세요"
 	fmt.Println(utf8.RuneCountInString(str2)) // 5글자
-	fmt.Println(len([]rune(str2)))		// alternative
+	fmt.Println(len([]rune(str2)))            // alternative
 
 	str3 := "Hello"
 	fmt.Println(len(str3))
