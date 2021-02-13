@@ -68,9 +68,8 @@ func minMax(a, b int) (int, int) {
 func min(a, b int) int {
 	if a > b {
 		return a
-	} else {
-		return b
 	}
+	return b
 }
 
 func max(values ...int) int {
