@@ -11,7 +11,6 @@ func main() {
 	fmt.Println(i, *p)
 
 	*p++
-	fmt.Println(*p, i)		// 8 8
-
+	fmt.Println(*p, i) // 8 8
 
 }

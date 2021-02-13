@@ -8,7 +8,7 @@ import (
 func main() {
 	// 추출 - python string slice와 유사하게
 	str1 := "Golang"
-	fmt.Println(str1[0:2], str1[0])		// str[0] => ascii code
+	fmt.Println(str1[0:2], str1[0]) // str[0] => ascii code
 	fmt.Println(str1[2:])
 	fmt.Println(str1[:4])
 

@@ -19,17 +19,17 @@ func main() {
 	fmt.Println(m)
 
 	// 함수의 슬라이스
-	funcs := []func(values ...int) int {sumAll, multiplyAll}
-	inputs := []int{1,2,3,4,5}
+	funcs := []func(values ...int) int{sumAll, multiplyAll}
+	inputs := []int{1, 2, 3, 4, 5}
 	for _, _func := range funcs {
 		fmt.Println(GetFunctionName(_func), _func(inputs...))
 	}
 
 	/*
-	익명함수 (Anonymous Function)
-	선언과 동시에 함수를 실행하고 싶을 때
-	 */
-	func (a int) int {
+		익명함수 (Anonymous Function)
+		선언과 동시에 함수를 실행하고 싶을 때
+	*/
+	func(a int) int {
 		fmt.Println(a)
 		return a
 	}(10)

@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 	// 배열 값 복사 증명
-	arr1 := [5]int{1,2,3,4,5}
+	arr1 := [5]int{1, 2, 3, 4, 5}
 	v1 := arr1[0]
 	fmt.Println(v1)
 

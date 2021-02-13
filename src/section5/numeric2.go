@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	var char1 rune = 50556 		// unicode
+	var char1 rune = 50556 // unicode
 	var char2 rune = 0142574
 	var char3 rune = 0xC57C
 

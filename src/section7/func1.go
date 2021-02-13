@@ -11,12 +11,12 @@ func helloGoLang() {
 
 func main() {
 	/*
-	func <함수명>(매개변수) 리턴타입 {}
-	func <함수명>() 리턴타입 {}
-	func <함수명>(매개변수) {}
-	func <함수명>() {}
-	다른 언어와 달리 반환값이 다수 가능
-	 */
+		func <함수명>(매개변수) 리턴타입 {}
+		func <함수명>() 리턴타입 {}
+		func <함수명>(매개변수) {}
+		func <함수명>() {}
+		다른 언어와 달리 반환값이 다수 가능
+	*/
 	helloGoLang()
 	sayOne("Hello World")
 	fmt.Println("sum = ", sum(10, 20))
@@ -89,7 +89,7 @@ func toString(a int) string {
 
 func nMultiplier(a, b int) func(c int) int {
 	c := a + b
-	return func (val int) int {
+	return func(val int) int {
 		return c * val
 	}
 }
